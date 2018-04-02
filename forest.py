@@ -7,7 +7,7 @@ def create_forest(num, wind = False):
     forest[x, y] = 1
     lst = []
     #print wind
-    for i in range(num//2):
+    for i in range(num//2-1):
         value = generate_random_value(wind)
         lst.append(value)
         if wind == "East":
