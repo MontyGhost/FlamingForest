@@ -38,6 +38,7 @@ if __name__ == "__main__":
     Label(main, text="Size of Forest", font=fnt).grid(row=4)
 
     var = IntVar()
+    #radiobuttons
     R1 = Radiobutton(main, text="North", variable=var, value=1, font=fnt,\
         command=sel)
     R2 = Radiobutton(main, text="South", variable=var, value=2, font=fnt,\
